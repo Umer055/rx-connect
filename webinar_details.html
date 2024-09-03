@@ -4029,11 +4029,13 @@
 								<div class="col-xl-4 col-md-6 col-12 wow fadeIn">
 									<div class="single-course">
 										<div class="course-img">
-											<img src="${webinar.image}" alt="course image">
+											<a href="webinar-details.html?id=${webinar.id}">
+												<img src="${webinar.image}" alt="course image">
+											</a>
 										</div>
 										<div class="course_content">
 											<div class="crating">
-												<a href="#">
+												<a href="webinar-details.html?id=${webinar.id}">
 													<i class="bx bxs-star"></i>
 													<i class="bx bxs-star"></i>
 													<i class="bx bxs-star"></i>
@@ -4041,7 +4043,7 @@
 													<i class="bx bxs-star"></i>
 												</a>
 											</div>
-											<h2><a href="#">${webinar.title}</a></h2>
+											<h2><a href="webinar_details.html?id=${webinar.id}">${webinar.title}</a></h2>
 										</div>
 									</div>
 								</div>
